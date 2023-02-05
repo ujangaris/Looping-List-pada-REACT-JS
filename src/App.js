@@ -18,11 +18,14 @@ class App extends React.Component {
     const number = numbers.filter((n) => n < 6)
     const num = number.map((n) => <li key={n.toString()}>{n}</li>)
     console.log(number)
+    const total = numbers.reduce((value, acc) => value + acc)
+    console.log(total)
     return (
       <div>
         <h1>Daftar Buah</h1>
         <ul>{fruit}</ul>
         <ul>{num}</ul>
+        <h2>total numbers : {total}</h2>
       </div>
     )
   }

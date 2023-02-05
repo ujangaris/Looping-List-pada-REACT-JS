@@ -12,4 +12,13 @@
 ### Higher order function filter()
 
     - Memfilter data2 yang ada didalam array
-    - pada baris ini : const num = number.map((n) => <li key={n.toString()}>{n}</li>) , kita juga bisa tidak menggunakan index sebagai key, dikarenakan data pada array numbers tidak ada yang sama .
+    - pada baris ini : const num = number.map((n) => <li key={n.toString()}>{n}</li>) ,
+      kita juga bisa tidak menggunakan index sebagai key, dikarenakan data pada array numbers tidak ada yang sama .
+
+### Higher order function reduce()
+
+    - Menggabungkan nilai menjadi satu/ istilahnya mengitung nilai
+    - kita menggunakan variable numbers yang nilainnya kita total
+    - kita menggunakan reduce , ada 2 buah parameter value & accumulator=acc di dalam reduce
+      untuk mengakumulasi nilai pada numbers
+    - total 30 adalah akumulasi/penjumlahan keseluruhan nilai pada numbers
