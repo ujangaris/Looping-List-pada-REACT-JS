@@ -14,10 +14,15 @@ class App extends React.Component {
   render() {
     const fruits = ["mangga", "apple", "delima", "nanas"]
     const fruit = fruits.map((f, index) => <li key={index}>{f}</li>)
+    const numbers = [1, 3, 5, 9, 2, 10]
+    const number = numbers.filter((n) => n < 6)
+    const num = number.map((n) => <li key={n.toString()}>{n}</li>)
+    console.log(number)
     return (
       <div>
         <h1>Daftar Buah</h1>
         <ul>{fruit}</ul>
+        <ul>{num}</ul>
       </div>
     )
   }

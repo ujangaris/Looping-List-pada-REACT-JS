@@ -8,3 +8,8 @@
     mana yang bertambah atau berkurang, mana yang akan dirender ulang .
     key harus unik dan biasanya menggunakan id, dan kalo tidak ada id
     biasanya menggunakan index(tidak direcomendasikan)
+
+### Higher order function filter()
+
+    - Memfilter data2 yang ada didalam array
+    - pada baris ini : const num = number.map((n) => <li key={n.toString()}>{n}</li>) , kita juga bisa tidak menggunakan index sebagai key, dikarenakan data pada array numbers tidak ada yang sama .
